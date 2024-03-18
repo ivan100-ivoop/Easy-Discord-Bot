@@ -3,13 +3,24 @@
 	"textcommand_prefix": "!",
 	"bot": {
 		"token": "",
-		"application_id": ""
+		"application_id": "",
+		"activity": {
+			"enabled": true,
+			"type": "playing",
+			"message": ""
+		}
 	},
 	"guilds": [""],
 	"staff": {
         "blacklisted": [""],
         "owner": "",
 		"autoDetectOwner": true
+	},
+	"ant_tag": {
+		"enabled": true,
+		"auto_protect_owner": true,
+		"users": [],
+		"roles": [""]
 	},
 	"tag_on_error": {
 		"enabled": false,

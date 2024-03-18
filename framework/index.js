@@ -73,7 +73,7 @@ class framework {
     }
 
     getConfig(name = ""){
-        if(name != null){
+        if(name != null && name != ""){
             const configuration = this.configFiles.get(name);
             
             if(configuration === null){
@@ -82,7 +82,7 @@ class framework {
 
             return configuration;
         }
-        return {};
+        return this.config;
     }
 
     isOwnConfig(name){
