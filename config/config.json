@@ -1,0 +1,18 @@
+{
+	"save_log": false,
+	"textcommand_prefix": "!",
+	"bot": {
+		"token": "",
+		"application_id": ""
+	},
+	"guilds": [""],
+	"staff": {
+        "blacklisted": [""],
+        "owner": "",
+		"autoDetectOwner": true
+	},
+	"tag_on_error": {
+		"enabled": false,
+		"log_channel": [""]
+	}
+}
