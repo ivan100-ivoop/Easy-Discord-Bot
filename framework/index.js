@@ -337,6 +337,7 @@ class framework {
                     const filePath = join(foldersPath, folder.name);
                     const command = require(filePath);
                     if ('run' in command) {
+						this.logger.info(`Successfully loaded module ${folder.name}.`);
                         this.addHandler(command.run);
                     } else {
                         this.logger.warning(`The handler at ${folder.name} is missing a required "run" property will be not active.`);
