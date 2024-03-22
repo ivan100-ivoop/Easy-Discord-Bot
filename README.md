@@ -46,7 +46,3 @@ Simple Framework to build your own discord bot!
 [MogoDB](https://cloud.mongodb.com/)
 
 [Easy-Discord-Bot](https://github.com/ivan100-ivoop/Easy-Discord-Bot)
-
-## Screenshots
-
-![preview](https://raw.githubusercontent.com/ivan100-ivoop/Easy-Discord-Bot/main/images/image_1.png)
